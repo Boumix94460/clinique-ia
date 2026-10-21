@@ -1,18 +1,17 @@
 # clinique-ia
 
-## Lancer le notebook
+## Running the notebook
 
-1. Clonez le dépôt et ouvrez `edtech_ai_clinic.ipynb` dans Jupyter ou VS Code.
-2. Installez les dépendances dans l'environnement Python utilisé par le notebook :
+1. Clone the repository and open `edtech_ai_clinic.ipynb` in Jupyter or VS Code.
+2. Install the dependencies in the Python environment used by the notebook:
 
    ```bash
    python -m pip install pandas kagglehub
    ```
 
-3. Exécutez les cellules. La cellule de chargement télécharge automatiquement
-   la version 45 du jeu de données public
+3. Run the notebook cells. The data-loading cell automatically downloads
+   version 45 of the public
    [Education Statistics](https://www.kaggle.com/datasets/theworldbank/education-statistics)
-   depuis Kaggle lors de la première exécution. KaggleHub le met en cache
-   localement ; les fichiers volumineux ne sont donc pas stockés dans GitHub
-   et ne sont pas retéléchargés à chaque exécution. Une connexion Internet est
-   nécessaire au premier téléchargement.
+   dataset from Kaggle the first time it runs. KaggleHub caches it locally, so
+   the large files do not need to be stored on GitHub or downloaded again on
+   every run. An internet connection is required for the initial download.
