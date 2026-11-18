@@ -6,7 +6,7 @@
 2. Install the dependencies in the Python environment used by the notebook:
 
    ```bash
-   python -m pip install pandas kagglehub
+   python -m pip install pandas kagglehub matplotlib
    ```
 
 3. Run the notebook cells. The data-loading cell automatically downloads
